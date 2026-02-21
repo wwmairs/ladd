@@ -1,7 +1,6 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A starter theme for Ghost theme development",
-    "demo": "https://starter.ghost.io",
+    "name": "ladd",
+    "description": "a ghost theme for ladds edition",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=5.0.0"
@@ -18,9 +17,9 @@
         "pretest": "npm run build"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "will mairs",
+        "email": "contact@wwmairs.com",
+        "url": "https://wwmairs.com"
     },
     "gpm": {
         "type": "theme",
@@ -36,7 +35,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/wwmairs/ladd.git"
     },
     "bugs": "https://github.com/TryGhost/Starter/issues",
     "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
