@@ -16,15 +16,15 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    color: #464646;
-    font-family: "news-gothic-std", sans-serif;
+    color: var(--color-base);
+    font-family: "ibm-plex-mono", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
     line-height: 1.6em;
     font-weight: 400;
     font-style: normal;
-    background: #fff;
+    background: var(--color-bg);
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -123,7 +123,7 @@ ul:not([class]) li + li {
 }
 
 a:not([class]) {
-    color: var(--color-primary);
+    color: var(--color-link);
     text-decoration-skip-ink: auto;
 }
 
@@ -143,6 +143,9 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: "news-gothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     line-height: 1.15em;
     font-weight: 700;
