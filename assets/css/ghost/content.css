@@ -76,6 +76,7 @@
 
 .gh-content hr {
     margin-top: 6vmin;
+    grid-column: full-start / full-end;
 }
 
 .gh-content hr + * {

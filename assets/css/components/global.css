@@ -88,7 +88,15 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid currentcolor;
-    opacity: 0.2;
+    overflow: visible;
+    text-align: center;
+}
+
+hr::after {
+    color: var(--color-base);
+    content: "* * *";
+    padding: 0 4px;
+    position: relative;
 }
 
 ::selection {

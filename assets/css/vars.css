@@ -4,13 +4,13 @@
 :root {
 
     /* Colours --ghost-accent-color is defined by use */
-    --color-primary: #3eb0ef;
+    --color-primary: #ffc79f;
     --color-base: #360f00;
     --color-border: #d2691e;
     --color-bg: #fffcf4;
     --color-success: #80b912;
     --color-error: #f05230;
-    --color-link: #89e8ff;
+    --color-link: #00ceff;
 
     /* Fonts */
     --font-sans-serif: "news-gothic-std", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;

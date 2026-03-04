@@ -3,38 +3,57 @@
 
 .gh-foot {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 8vmin 4vmin 4vmin;
+    background-color: var(--color-primary);
+    border-top: 1px solid;
+    gap: 2rem;
+    font-style: italic;
 }
 
 .gh-foot .gh-container {
     width: auto;
 }
 
+.gh-foot .gh-container > *:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.gh-foot h4 {
+    font-family: "ibm-plex-mono";
+    font-weight: 600;
+    font-style: italic;
+}
+
 .gh-foot a {
     color: inherit;
 }
 
-.gh-foot-menu {
+.gh-foot-menu {/*
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
 }
 
 .gh-foot-menu .nav {
     display: inline-flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     list-style: none;
     font-size: 1.8rem;
 }
 
 .gh-foot-menu .nav li {
-    margin: 0 1.5vmin;
+    margin: 0;
+    margin-right: 1.5vmin;
     padding: 0;
 }
+
 
 .gh-foot-menu .nav a {
     display: inline-block;
@@ -51,7 +70,14 @@
 }
 
 @media (max-width: 700px) {
+    .gh-foot {
+        display: block;
+    }
     .gh-foot-menu .nav {
         font-size: 1.6rem;
+    }
+
+    .gh-foot > *:not(:last-child) {
+        margin-bottom: 3rem;
     }
 }
